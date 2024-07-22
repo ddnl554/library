@@ -1213,7 +1213,8 @@ local function getObjGen()
             Gui.Watermark.TextColor3 = Color3.fromRGB(92,78,210)
             Gui.Watermark.TextSize = 14.000
             Gui.Watermark.TextStrokeTransparency = 0.800
-            Gui.Watermark.TextXAlignment = Enum.TextXAlignment.Left
+            textLabel.TextXAlignment = Enum.TextXAlignment.Left 
+            textLabel.TextYAlignment = Enum.TextYAlignment.Bottom
             Gui.Watermark.Position = UDim2.new(0, 0, 0, 0)
 
             Gui.UIPadding_6.Parent = Gui.Window
