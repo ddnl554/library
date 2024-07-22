@@ -532,7 +532,7 @@ local function getObjGen()
             Gui.Text_2.Text = ""
             Gui.Text_2.TextColor3 = Color3.fromRGB(100, 100, 100)
             Gui.Text_2.TextScaled = true
-            Gui.Text_2.TextSize = 14.000
+            Gui.Text_2.TextSize = 18.000
             Gui.Text_2.TextWrapped = true
 
             Gui.UITextSizeConstraint.Parent = Gui.Text_2
