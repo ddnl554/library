@@ -1205,7 +1205,7 @@ local function getObjGen()
 
             Gui.Watermark.Name = "Watermark"
             Gui.Watermark.Parent = Gui.Window
-            Gui.Watermark.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Gui.Watermark.BackgroundColor3 = Color3.fromRGB(125,125,125)
             Gui.Watermark.BackgroundTransparency = 1.000
             Gui.Watermark.Size = UDim2.new(0.5, 0, 0.0199999996, 0)
             Gui.Watermark.Font = Enum.Font.Gotham
